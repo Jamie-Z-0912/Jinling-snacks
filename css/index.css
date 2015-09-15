@@ -97,7 +97,7 @@ a { text-decoration:none; color:#333; -webkit-tap-highlight-color: rgba(0, 0, 0,
 
 .course-tu,.course-name,.course-txt{ position: absolute;}
 .course-tu{ z-index: 2}
-.course-name { z-index: 4;width: 35%;}
+.course-name { z-index: 4;width: 34%;}
 .course-txt{ z-index: 4;-webkit-transform: scale3d(0,0,0);transform: scale3d(0,0,0); }
 /*.course-txt li{width: 8.8%; float: right; margin-right:1px;}*/
 .course-zan{ z-index: 104; position: relative; width: 100%;  }
@@ -113,7 +113,7 @@ a { text-decoration:none; color:#333; -webkit-tap-highlight-color: rgba(0, 0, 0,
 .jinling{ z-index: 4; top: 21%;opacity:0;}
 .wan{ z-index: 2; bottom: 5%; width:68%; left: 16%;opacity:0; }
 /*1 s*/
-.page1 .course-tu-left{ top:31%;}
+.page1 .course-tu-left{ top:15.6%;}
 .page1 .course-name-right{top: 3%;}
 .page1 .course-txt-1{top: 5%; right: 35%; width: 50%}
 .page1 .course-tu-right{ bottom:0;}
@@ -121,7 +121,7 @@ a { text-decoration:none; color:#333; -webkit-tap-highlight-color: rgba(0, 0, 0,
 .page1 .course-txt-2{bottom: 24.5%; left: 39%;width: 38.88%}
 /*.page1 .course-txt-2 ul li{ float: left;}*/
 /*2 s*/
-.page2 .course-tu-right{ top:32%;} /*p2*/
+.page2 .course-tu-right{ top:25.2%;} /*p2*/
 .page2 .course-name-left{top: 3%; left: 0;}
 .page2 .course-txt-1{top: 5%; left: 35%;width: 44.44%}
 /*.page2 .course-txt-1 ul li{ float: left;}*/
@@ -129,7 +129,7 @@ a { text-decoration:none; color:#333; -webkit-tap-highlight-color: rgba(0, 0, 0,
 .page2 .course-name-right{bottom: 19%;} 
 .page2 .course-txt-2{bottom: 25.6%;right: 35%;width:55.55%}
 /*3 s*/
-.page3 .course-tu-left{ top:31%;}
+.page3 .course-tu-left{ top:14.6%;}
 .page3 .course-name-right{top: 3%;}
 .page3 .course-txt-1{top: 5%; right: 37%;width: 44.44%}
 .page3 .course-tu-right{ bottom:0;}

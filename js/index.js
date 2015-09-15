@@ -63,8 +63,9 @@ $(function() {
             imgL=_this.find(".course-tu-left"),imgR=_this.find(".course-tu-right");
             nameL=_this.find(".course-name-left"),nameR= _this.find(".course-name-right");
 
-            _this.find(".course-txt-1").addClass("txtShow");
-            setTimeout(function(){_this.find(".course-txt-2").addClass("txtShow");},2600); 
+            // _this.find(".course-txt-1").addClass("txtShow");
+            setTimeout(function(){_this.find(".course-txt-1").addClass("txtShow");},1600); 
+            setTimeout(function(){_this.find(".course-txt-2").addClass("txtShow");},4000); 
             switch (pageId){
                 case 1:
                     $(".head").removeClass("headDown"),$(".wan").removeClass("wanUp"),$(".jinling").removeClass("jinlingOut");
