@@ -1,0 +1,156 @@
+<html><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<title>金陵小吃</title>
+<link rel="stylesheet" type="text/css" href="css/ada.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <div class="load" style="display:none;">
+        <div class="loadBg">
+        <div class="loadGif"></div>
+        <p>loading...</p>
+        </div>
+    </div>
+     <!--audio -->
+    <div id="audio_btn" class="play_yinfu" style="display: block;">
+    	<div id="yinfu" class="rotate"></div>
+    	<audio loop="" src="yzcw.mp3" id="media" autoplay="" preload=""></audio>
+    </div>
+    <!-- /audio -->
+    <!-- success -->
+    <div id="success" style="display: none;">
+        <div class="zhang"><img src="images/p5end/zhang.png"></div>
+        <div class="s-back" style="display: none;"><img src="images/p5end/back.png"></div>
+        <div class="copy"><img src="images/p5end/copy.png"></div>
+        <div class="content"><img src="images/p5end/bg.jpg" class="full"></div>
+    </div>
+    <!-- /success -->
+    <div class="w" id='w'>
+        <section class="swiper-container">
+            <div class="swiper-wrapper pageindex">
+            <!--P0 s -->
+                <section class="swiper-slide page0" id="p0">
+                    <div class="box">
+                        <div class="head"><img src="images/0shejian.png"></div>
+                        <div class="jinling"><img src="images/0jinling.png"></div>
+                        <div class="wan"><img src="images/0wan.png"></div>
+                        <div class="content"><img src="images/0bg.jpg" class="full" /></div>
+                        <div class="up bounceInUp"></div>
+                    </div>
+                </section>
+            <!--P1 s -->
+                <section class="swiper-slide page1" id="p1">
+                    <div class="box">
+                        <div class="course-tu course-tu-left"><img src="images/p1/course_tu1.png"></div>
+                        <div class="course-name course-name-right">
+                            <img src="images/p1/course_name1.png">
+                            <img src="images/zan.png" class="zanActive">
+                            <div class="course-zan"><span>9848</span></div>
+                        </div>
+                        <div class="course-txt course-txt-1">
+                            <img src="images/p1/txt1.png">
+                        </div>
+                        <div class="course-tu course-tu-right"><img src="images/p1/course_tu2.png"></div>
+                        <div class="course-name course-name-left">
+                            <img src="images/p1/course_name2.png">
+                            <img src="images/zan.png" class="zanActive">
+                            <div class="course-zan"><span>9656</span></div>
+                        </div>
+                        <div class="course-txt course-txt-2"><img src="images/p1/txt2.png"></div>
+    					<div class="up bounceInUp"></div>
+                    </div>
+                </section>
+            <!--P2 s -->
+                <section class="swiper-slide page2" id="p2">
+                    <div class="box">
+                        <div class="course-tu course-tu-right"><img src="images/p2/course_tu1.png"></div>
+                        <div class="course-name course-name-left">
+                            <img src="images/p2/course_name1.png">
+                            <img src="images/zan.png" class="zanActive">
+                            <div class="course-zan"><span>4769</span></div>
+                        </div>
+                        <div class="course-txt course-txt-1"><img src="images/p2/txt1.png"></div>
+                        <div class="course-tu course-tu-left"><img src="images/p2/course_tu2.png"></div>
+                        <div class="course-name course-name-right">
+                            <img src="images/p2/course_name2.png">
+                            <img src="images/zan.png" class="zanActive">
+                            <div class="course-zan"><span>2681</span></div>
+                        </div>
+                        <div class="course-txt course-txt-2"><img src="images/p2/txt2.png"></div>
+                        <div class="up bounceInUp"></div>
+                    </div>
+                </section>
+            <!--P3 s -->
+                <section class="swiper-slide page3" id="p3">
+                    <div class="box">
+                        <div class="course-tu course-tu-left"><img src="images/p3/course_tu1.png"></div>
+                        <div class="course-name course-name-right">
+                            <img src="images/p3/course_name1.png">
+                            <img src="images/zan.png" class="zanActive">
+                            <div class="course-zan"><span>1947</span></div>
+                        </div>
+                        <div class="course-txt course-txt-1"><img src="images/p3/txt1.png"></div>
+                        <div class="course-tu course-tu-right"><img src="images/p3/course_tu2.png"></div>
+                        <div class="course-name course-name-left">
+                            <img src="images/p3/course_name2.png">
+                            <img src="images/zan.png" class="zanActive">
+                            <div class="course-zan"><span>1924</span></div>
+                        </div>
+                        <div class="course-txt course-txt-2"><img src="images/p3/txt2.png"></div>
+                        <div class="up bounceInUp"></div>
+                    </div>
+                </section>
+            <!--P4 list s --> 
+                <section class="swiper-slide page4" id="p4">
+                    <div class="box">
+                        <div class="meihua"><img src="images/p4list/meihua.png"></div>
+                        <div class="list-title"><img src="images/p4list/bang.png"></div>
+                        <div class="course-list"><img src="images/p4list/list.png"></div>
+                        <div class="quan" id="quan" style="display:none;"><img src="images/p4list/quan.png"></div>
+                        <div class="index-bg"><img src="images/p4list/bg.jpg"/></div>
+                        <!--<div class="up bounceInUp"></div>-->
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+    <script type="text/javascript">
+    $(function(){
+       var audioPlay = {_flag: true, _audio: $("#audio_btn audio")[0], _dom: $("#audio_btn"),_yf: $("#yinfu"),
+            _play: function() {
+                var _this = this;
+                this._audio.play();
+                this._dom.addClass("u-play");
+                this._dom.removeClass("off").addClass("play_yinfu");
+                this._yf.addClass("rotate");
+            },
+            _pause: function() {
+                var _this = this;
+                this._audio.pause();
+                this._dom.addClass("off").removeClass("play_yinfu");
+                this._yf.removeClass("rotate");
+                this._flag = false;
+            },
+            init: function() {
+                var _this = this;
+                this._dom.bind('touchstart', function() {
+                    if (_this._dom.hasClass("off")) {
+                        _this._play();
+                    } else {
+                        _this._pause();
+                    }
+                });
+            }
+        };
+        audioPlay.init(); //音乐加载
+    });	
+    </script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+body,div,p,section,ul,li,.list-inline>li{margin:0;padding:0;}
+ul,li { list-style: none;}
+html { height: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { background-color: #eeece9; margin: 0 auto; padding: 0; width: 100%; height: 100%; min-height: 100%; font-family: 'Microsoft Yahei', Tahoma, Helvetica, Arial, sans-serif; line-height: 1.231; -webkit-touch-callout: none; display: -webkit-box; -webkit-box-orient: vertical; -webkit-box-align: stretch;}
+table { border-collapse: collapse; border-spacing: 0; width: 100%; }
+th, td, caption { vertical-align: middle; }
+.pageindex{max-width:560px;}
+.w,.swiper-container, .swiper-slide{margin:0 auto; max-width:640px;}/**/
+*,*:before,*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+img{width: 100%; display: block;}
+img.full{width: 100%; height: 100%; display: block;margin: 0;}
+a { text-decoration:none; color:#333; -webkit-tap-highlight-color: rgba(0, 0, 0, 0.35); }
+.clearfix::after {
+ content: " ";
+ display: block;
+ clear: both;
+ visibility: hidden;
+ line-height: 0;
+ height: 0;
+}
+.fr{ float: right;}
+.fl{float: left;}
+.tc{ text-align: center;}
+.tr{ text-align: right;}
+/* ª¨∂Øƒ¨»œ—˘ Ω */
+/* Swiper Styles */
+.swiper-container {
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -ms-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+  /* Fix of Webkit flickering */
+  z-index:1;
+  background:url(../images/bg.jpg) no-repeat center center; background-size:100% 100%;
+}
+.swiper-wrapper {
+  position:relative;
+  width:100%;
+  -webkit-transition-property:-webkit-transform, left, top;
+  -webkit-transition-duration:0s;
+  -webkit-transform:translate3d(0,0,0);
+  -webkit-transition-timing-function:ease;
+
+  -moz-transition-property:-moz-transform, left, top;
+  -moz-transition-duration:0s;
+  -moz-transform:translate3d(0,0,0);
+  -moz-transition-timing-function:ease;
+
+  -o-transition-property:-o-transform, left, top;
+  -o-transition-duration:0s;
+  -o-transform:translate3d(0,0,0);
+  -o-transition-timing-function:ease;
+  -o-transform:translate(0,0);
+
+  -ms-transition-property:-ms-transform, left, top;
+  -ms-transition-duration:0s;
+  -ms-transform:translate3d(0,0,0);
+  -ms-transition-timing-function:ease;
+
+  transition-property:transform, left, top;
+  transition-duration:0s;
+  transform:translate3d(0,0,0);
+  transition-timing-function:ease;
+
+}
+.swiper-slide {
+  float: left;
+  position:relative;
+}
+
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal {
+  -ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+  -ms-touch-action: pan-x;
+}
+
+/* Specify Swiper's Size: */
+.swiper-container, .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+.swiper-wrapper{height:100%;}
+.swiper-slide{position: relative;overflow:hidden;}
+/*øÚº‹*/
+.box{width:100%; height:100%;position:relative;}
+.content{width:100%; height:100%;}
+
+.course-tu,.course-name,.course-txt{ position: absolute;}
+.course-tu{ z-index: 2}
+.course-name { z-index: 4;width: 34%;}
+.course-txt{ z-index: 4;-webkit-transform: scale3d(0,0,0);transform: scale3d(0,0,0); }
+/*.course-txt li{width: 8.8%; float: right; margin-right:1px;}*/
+.course-zan{ z-index: 104; position: relative; width: 100%;  }
+.course-zan span{position: absolute;bottom: 0.65rem;left: 45.5%;color: #a6050d;font-size: 110%;font-weight: bolder;font-family: heiti SC;}
+.course-tu-right,.course-name-right{ right: 0;-webkit-transform: translate3d(3000px, 0, 0); transform: translate3d(3000px, 0, 0);}
+.course-tu-left{ left: 0;-webkit-transform: translate3d(-3000px, 0, 0); transform: translate3d(-3000px, 0, 0);}
+.course-name-left{-webkit-transform: translate3d(-3000px, 0, 0); transform: translate3d(-3000px, 0, 0);}
+/*0 s*/
+.head,.index-bg,.jinling,.wan{ position: absolute;}
+.head{ z-index: 4; top: 11%;-webkit-transform: translate3d(0, -3000px, 0);transform: translate3d(0, -3000px, 0);}
+.index-bg{ bottom: 0;z-index: 1;}
+.index-bg img{width: 100%;}
+.jinling{ z-index: 4; top: 21%;opacity:0;}
+.wan{ z-index: 2; bottom: 5%; width:68%; left: 16%;opacity:0; }
+/*1 s*/
+.page1 .course-tu-left{ top:15.6%;}
+.page1 .course-name-right{top: 3%;}
+.page1 .course-txt-1{top: 5%; right: 35%; width: 50%}
+.page1 .course-tu-right{ bottom:0;}
+.page1 .course-name-left{bottom: 19%; left: 2%;}
+.page1 .course-txt-2{bottom: 24.5%; left: 39%;width: 38.88%}
+/*.page1 .course-txt-2 ul li{ float: left;}*/
+/*2 s*/
+.page2 .course-tu-right{ top:25.2%;} /*p2*/
+.page2 .course-name-left{top: 3%; left: 0;}
+.page2 .course-txt-1{top: 5%; left: 35%;width: 44.44%}
+/*.page2 .course-txt-1 ul li{ float: left;}*/
+.page2 .course-tu-left{ bottom:0;}
+.page2 .course-name-right{bottom: 19%;} 
+.page2 .course-txt-2{bottom: 25.6%;right: 35%;width:55.55%}
+/*3 s*/
+.page3 .course-tu-left{ top:14.6%;}
+.page3 .course-name-right{top: 3%;}
+.page3 .course-txt-1{top: 5%; right: 37%;width: 44.44%}
+.page3 .course-tu-right{ bottom:0;}
+.page3 .course-name-left{bottom: 19%; left: 2%;}
+.page3 .course-txt-2{bottom: 24.5%; left: 37%;width:55.55%}
+/*.page3 .course-txt-2 ul li{ float: left;}*/
+/* P4 list s*/
+.meihua,.quan,.list-title,.course-list{ position: absolute;}
+.list-title,.course-list{z-index: 4;-webkit-transform: translate3d(-1000px, 0, 0);  transform: translate3d(-1000px, 0, 0);}
+.meihua{ z-index: 1;width: 85%;top:0; left: 0;}
+.quan{ bottom:20%; z-index: 100; }
+.list-title{width: 32%;top: 17%;right: 4%;}
+.course-list{top: 21%;right: 34%;width: 58.33%;}
+/*.course-list ul li{ width: 9.7%; float: right;}*/
+
+#success{ position: absolute; width: 100%; height: 100%; z-index:108;top:0; left:0;background:url(../images/bg.jpg) no-repeat center center; background-size:100% 100%;}
+#success .zhang,#success .s-back,#success .copy{position: absolute;}
+#success .zhang{width: 62%;left:19%; top: 30%;}
+#success .s-back{ width: 30%;bottom: 20%; left: 35%;}
+#success .copy{ width: 47%;left:26.5%;bottom: 5%;}
+
+/*œÚ…œ∞¥≈•*/
+.up{width:10%;height:8%; z-index:100;position: absolute; bottom:0.3%; left:45%; 
+  background:url(../images/up.png) no-repeat;background-size:contain;
+}
+/*±≥æ∞“Ù¿÷ s*/
+#audio_btn{
+  position: absolute;
+  right: 3;
+  top: 3;
+  z-index: 200;
+  display: none;
+  width: 54;
+  height: 54;
+  background-repeat: no-repeat;
+  }
+  .loading_yinfu {
+    position: absolute;
+    left: 10;
+    top: 10;
+    width: 30;
+    height:30;
+    background-image: url(../images/yinfu.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .play_yinfu {
+    background-image: url(../images/music.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60 60;
+  }
+
+  .rotate {
+    position: absolute;
+    left: 10;
+    top: 10;
+    width: 30;
+    height: 30;
+    background-size: 100% 100%;
+    background-image: url(../images/music_off.png);
+    -webkit-animation: rotating 1.2s linear infinite;
+    -moz-animation: rotating 1.2s linear infinite;
+    -o-animation: rotating 1.2s linear infinite;
+    animation: rotating 1.2s linear infinite;
+  }
+
+  @-webkit-keyframes rotating {
+      from{
+          -webkit-transform: rotate(0deg);
+      }
+      to{
+          -webkit-transform: rotate(360deg);
+      }
+  }
+  @keyframes rotating {
+      from{
+          transform: rotate(0deg);
+      }
+      to{
+          transform: rotate(360deg);
+      }
+  }
+
+  @-moz-keyframes rotating {
+      from{
+          -moz-transform: rotate(0deg);
+      }
+      to{
+          -moz-transform: rotate(360deg);
+      }
+  }
+/*#audio_btn.off{background-position: 0 -30;}*/
+.off{background-image: url(../images/music_off.png);background-size: 30 30; background-repeat: no-repeat;background-position: center center;}
+
+/*±≥æ∞“Ù¿÷ e*/
+/*º”‘ÿ“≥√Ê*/
+.load {text-align: center;background: #171717; background-size: cover;overflow: hidden;display: block;z-index: 1009;height: 100%;}
+.loadBg {height: 100%;width: 48px;height: 60;position: absolute;top: 50%;margin-left: -24px;left: 50%;margin-top: -30;font-size: 12px;color: #fe9900;}
+@-webkit-keyframes rotate {
+      0% {-webkit-transform:rotate(0deg);}
+      100% {-webkit-transform:rotate(360deg);}
+    }
+.loadGif {background: url(../images/loading.png) no-repeat;background-size: 33px 33px;-webkit-animation: rotate 3s infinite linear;height: 33px;width: 33px;}
+.loadBg p {position: relative;left: -5px;top: 8px;}
